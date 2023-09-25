@@ -1,5 +1,5 @@
 # 1. In your on words, describe what a variable is.
- "A variable is a letter or symbol of text that is changable depending on the situation." 
+ "A variable is a letter or symbol of text that is changable depending on the situation. It is also good for storing information for a different value" 
 # 2. Name three (3) operators we've learned about in class and describe
 "Addition (+) is when you combine two numbers. creating a new bigger number, subtraction(-) is when you negatively compare two values. 
 "One value is subtracted into the other, leading to a smaller number. Multiplication(*) is when you multiply a number by another value. Example: 3x3 = 9 " 
@@ -24,12 +24,15 @@ numberOfApples < numberOfOranges
 original_gift_card = 100 
 family_member = + 50
 friend = + 35.50
-total_amount = 185.50
+
+total_amount_balance = original_gift_card + family_member + friend
+print(total_amount_balance)
 # 6. Create a variable that uses the input function and then print that variable. Your variable 
 # should ask a user to enter their name.  
 name = input("What is your name?")
 
 print("My name is" + name)
+print("Hello" + name)
 # 7. You have been asked to create a program for a community center that wants to plan a cookout. 
 # The community center wants you to build a form program and capture several key data points. 
 # They want to know a visitor's full name, their age, if they have an allergy, and what their 
@@ -51,6 +54,6 @@ print("my favorite food is" + food)
 # scenario and how would you write a variable to represent this value?
 "A good data type is Boolean. You can use it to write 'true or false' values to answer the allergy questions."
 # 9. In your own words, describe what a program is?
-"A program is a certain related system that is encoded to guide people using specific topics. Programs can include websites, or online articles."
+"A program is a certain related system that can be used to run a system, such as computer language. It can include active scripts. Programs can include websites, or online articles."
 # 10. Describe the difference between a float and an integer. 
 "A float is a decimal number, while an integer is a whole number with no decimal."
