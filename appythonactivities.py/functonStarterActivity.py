@@ -16,7 +16,7 @@ WelcomeToWendys()
 def calculate(Num1, Num2, Num3): 
     print(Num1 + Num2 + Num3)
 
-#calculate(7,12,12) # 7 100 700
+calculate(6,11,12)
 
 
 # 5. Write a function that will output a message to a user, telling them
