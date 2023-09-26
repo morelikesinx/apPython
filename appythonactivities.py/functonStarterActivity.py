@@ -12,19 +12,11 @@ print('Jordan')
 WelcomeToWendys()
 # 4. Write a function that will do a calculation that takes 3 parameters.
 # Your function can do any of the arithmatic operators (add, subtract, multiply, divide)
-def add(x, y):
-    return x + y
 
-def subtract(x, y):
-    return 1 - 2
+def calculate(Num1, Num2, Num3): 
+    print(Num1 + Num2 + Num3)
 
-def multiply(x, y):
-    return 2 * 4
-
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-
+#calculate(7,12,12) # 7 100 700
 
 
 # 5. Write a function that will output a message to a user, telling them
