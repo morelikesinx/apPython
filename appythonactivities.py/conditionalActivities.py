@@ -12,13 +12,15 @@
 # NOT food in the fridge, print time to shop. 
 # When you call your function there should be an argument that accepts 
 # a boolean. 
-FoodInRefrigator = True
 
-if FoodInRefrigator == True
+def FoodInRefrigerator(food):
+    if food == true:
     print("Time to cook")
 
 else:
     print("Time to shop")
+
+FoodInRefrigerator(true)
 
 
 # 4. Create a function that checks the inventory of cereal for a store. 
@@ -27,10 +29,8 @@ else:
 # If there is more than 10 boxes, print "inventory full", else if there are less than 
 # 10 boxes print "we need to order more cereal".
 
-MoreThanTenBoxesOfCereal = True
-
-if MoreThanTenBoxesOfCereal == True
-    print("Inventory Full")
-
-else:
-    print("We need to order more cereal")
+def check_cereal_inventory(quantity):
+    if quantity > 10:
+        print("We need to order more cereal")
+    else: 
+        print("inventory full")
