@@ -10,15 +10,15 @@
 # formatted as a float. 
 
 
-classtime = 12.00
 
-input(classtime)
 
 def timeOfClass(classtime):
-    if classtime > 11.30
+    if classtime > 11.30:
         print("class is still in session")
     else:
         print("class is over. Time to go")
+
+timeOfClass(12.00)
 # 2. Write a function that uses a conditional statement. 
 # your function should determine what type a pet a user has depeding on the data provided by the user
 # passed into the functions argument. 
@@ -27,23 +27,28 @@ def timeOfClass(classtime):
 # ELSE, if it is none of the animal sounds the function should return a message saying it doesn't 
 # know what the animal is. 
 
-def yourpet(pet):
-    if pet == "woof"
-        print("Than It is a dog")
+def yourpet():
+    print("Type in your pet")
+    if yourpet=="woof":
+        print("Than It is a dog")  
     else:
-        print("I don't know what animal that is")
+        print("Than it is a cat")
 
-    if pet = "meow"
-        print("That it is a cat")
-    else:
-        print("I don't know what animal that is")
+yourpet()
 # 3. Write a function that will take in a user name and height as parameters. 
 # Your function should evaluate and determine if the user is tall in enough to get on a roller coster.
 # IF the user is over 5.5, the function should return a custom message saying the user's name
 # and a message "welcome please buckle up".
 # ELSE if they they are not, return a message apologizing to the user saying they are not tall enough.
 
-name = input('What is your name?')
-    print("My name is" + name)
-height = input("What is your height?")
-    print("My height is" + height)
+name= input('What is your name?')
+height=float(input("What is your height?"))
+
+def rollercoaster_requirements(name, height):
+    if height > 5.5:
+        print("Welcome Aboard. Buckle up," + name)
+    else:
+        print("Your " + height " is too short.")
+        print("Come back when you hit your growth spurt.")
+        
+rollercoaster_requirements(name,height)

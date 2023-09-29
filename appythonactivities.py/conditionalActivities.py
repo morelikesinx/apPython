@@ -14,13 +14,13 @@
 # a boolean. 
 
 def FoodInRefrigerator(food):
-    if food == true:
-    print("Time to cook")
+    if food == True
+        print("Time to cook")
 
-else:
-    print("Time to shop")
+    else
+        print("Time to shop")
 
-FoodInRefrigerator(true)
+FoodInRefrigerator(False)
 
 
 # 4. Create a function that checks the inventory of cereal for a store. 
@@ -30,7 +30,7 @@ FoodInRefrigerator(true)
 # 10 boxes print "we need to order more cereal".
 
 def check_cereal_inventory(quantity):
-    if quantity > 10:
+    if quantity > 10
         print("We need to order more cereal")
-    else: 
+    else
         print("inventory full")
