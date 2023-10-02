@@ -1,1 +1,5 @@
+shopping_cart = ['notebook', 'pens','tape','mousepad']
 
+shopping_cart.append('laptop')
+
+print(shopping_cart)
