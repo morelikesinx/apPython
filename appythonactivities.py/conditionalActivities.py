@@ -17,7 +17,7 @@ def FoodInRefrigerator(food):
     if food == True
         print("Time to cook")
 
-    else
+    else:
         print("Time to shop")
 
 FoodInRefrigerator(False)
