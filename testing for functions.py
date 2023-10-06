@@ -1,6 +1,9 @@
-numlist = [1,2,3,4,5,6]
+random_number_list2 = [100,230,40,39403,19]
 
-def muliply():
-    print(numlist* 3)
+largest = random_number_list2[0]
 
-muliply()
+for i in random_number_list2:
+    if i>largest:
+        largest = i
+
+print(largest)
