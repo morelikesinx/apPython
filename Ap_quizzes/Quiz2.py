@@ -93,9 +93,12 @@ print(largest)
 
 # 9. What does it mean to call a function? Why do we call functions. 
 # you can use the variable below to enter you ansewer. 
-answer9='your answer here'
-
+answer9='Calling a function means that the function will have a signal to be abe to run.'
+'without a call, we cant start the desired function'
 # 10. Find and print each value at the specific indexes provided in the list.
 # find and print the values/words at index 3, 4, and 6 
 
 shopping_cart = ['apples','water','chicken','ice cream','ground beef','string beans','oranges']
+
+SC = shopping_cart.index[3]
+print(SC)

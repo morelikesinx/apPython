@@ -1,9 +1,4 @@
-random_number_list2 = [100,230,40,39403,19]
+shopping_cart = ['apples','water','chicken','ice cream','ground beef','string beans','oranges']
 
-largest = random_number_list2[0]
-
-for i in random_number_list2:
-    if i>largest:
-        largest = i
-
-print(largest)
+SC = shopping_cart.index[3]
+print(SC)
