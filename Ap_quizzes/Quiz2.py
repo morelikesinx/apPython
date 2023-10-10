@@ -90,7 +90,17 @@ print(largest)
 # - if they get this correct, they then want them to enter another value, which is 3039
 # - if this is correct they will get access to the building
 # - if they have the wrong answer in either scenario they will get a message saying access denied. 
+def buildingCode():
+    code = input("type in your code:")
+    if code== '0001':
+        print("correct, you need 1 more code to enter")
+        code2=input('please enter the second code')
+    if code2== '3039':
+        print("you may enter the building")
+else:
+    print("access denied")
 
+buildingCode()
 # 9. What does it mean to call a function? Why do we call functions. 
 # you can use the variable below to enter you ansewer. 
 answer9='Calling a function means that the function will have a signal to be abe to run.'
