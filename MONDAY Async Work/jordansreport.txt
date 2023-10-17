@@ -1,0 +1,48 @@
+A report of World Of Tanks - Jordan Jones
+
+World Of Tanks is an incredible MMO game. Instead of real people, it uses tanks. 
+I has intense warfare that puts you up against various player in a lobby or server, aka PVP gameplay. 
+This game has thousands of players joining daily, and million of players worldwide. 
+Each team consists of two teams, fifteen players per each, and a fifteen minute fight to the death. 
+Each nation, such as the US, Germany, USSR, UK, France, China, has for types of tanks: Heavy, medium, light, and artillery. 
+ The tanks have more than just four types, but it contain each of 10 levels per tank. 
+ With these level upgrades, you can increase the overall damage, mobility, or firerate of any of the tanks, but they get more costly as you go on. 
+ The more experience you have, the better the gameplay and skill you perform. Battle mechanics are also very important in the game. 
+ This includes areas: positioning, shooting, and teamwork. 
+ WIthout positioning, you will leve yourself out in the open, and easily vulnerable to stray bullets or shooting from other enemies. 
+ With shooting, you must know properly how to aim at other wandering tanks around your land. 
+ If you can’t know this, it is the most essential part to the purpose of the game. 
+ This is why it is best to study about the battle mechanics of this game, so you have become increasingly familiar with the tanks, and the gameplay in general. 
+ This game will blast you away, literally.
+
+World Of Tanks do not use the typical average software to code their game, they use Python. 
+Python is a coding language that is universally used across the world.
+ It is also one of the most easiest and simplest programming to learn than many other languages.
+  Other languages may include Java, C, and C++. Python is a coding programming language that uses dynamic operations in order to run, type, or form a code. 
+  It is a program that contains built in data structures like variables, floats, integers, strings, and more. 
+  You can do multiple things, involving multiplication, subtraction, addition, and division to make functional codes that can solve problems as coded arithmetic operations.
+
+World of Tanks was built back in April of 2009. This was when the developers got together with a team and wanted to make a historical figure of a game. 
+They wanted to base it off of the World War events, and wanted to make it look fantastic and well made. 
+After their initial concept of the game in 2009, they finally started making it next year, made partly in C++. 
+In Wikipedia, the article, “World Of Tanks” states “The developers thought of the concept of World of Tanks in December 2008. The game was officially announced by Wargaming on 24 April 2009. Developers claim that the game budget was the largest ever in the game industry of the CIS.” This refers that World of Tanks was originally seen as a concept, being made in fruition by the game developers before becoming the real deal. In the interview of hackmag’s GameDev session, Victor Kislyi states, “Our server is driven by BigWorld engine, which is written in C++.”
+This means that C++ was mostly used for the game’s programming, involving scripting, modding, and changing key features, as well as building the game.
+
+Python was used in World Of Tanks in order to script commands initiated by the player, such as clicking on certain UI interactive buttons or keybinds. 
+Python was als used in the game to run the code of the tank’s movement, or to apply rewards to the player after they complete an objective, 
+or dialoging objects or tanks in the game. In the article of “Python app development” it states, “World of Tanks uses Python for various functions. 
+Developers can create quick game prototypes and test them in real time using Python and Pygame. 
+You can also use Python to develop game design tools that support the development process, such as creating level designs and dialog trees throughout the game.” 
+This means that Python have been used for World Of Tanks as a scripting language and dialogue feature for scripting and adding new tank into the game. 
+This shows it has also been used for texture packs, or giving an object a name, such as terrain, or a tank.
+
+Work Cited:
+
+Joana Almeida - “Python app development”, Distant jobs, Apr 28, 2023
+https://distantjob.com/blog/python-app-development/#:~:text=Game%20app%20development&text=Also%2C%20%E2%80%9CWorld%20of%20Tanks%E2%80%9D,level%20designs%20and%20dialog%20trees.
+
+“Interview with the creator of World Of Tanks” , hackmag , February 10, 2020
+https://hackmag.com/devops/interview-with-wot-developers/#:~:text=Our%20server%20is%20driven%20by,written%20in%20C%2B%2B%20and%20Python.
+
+“World Of Tanks” , history, wikipedia, April 2019
+https://en.wikipedia.org/wiki/World_of_Tanks
