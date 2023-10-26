@@ -22,7 +22,7 @@ while Printer <= 10:
   print("Document.exe")
   Printer += 1
 # 3. Create a Stop Light Loop that will change the light color based on different time intervals. 
-# every 30 seconds the light should change between green and red. 
+# every 30 seconds the light should change between green and red.
 stoplight=0
 while True:
     if stoplight <30:
@@ -31,7 +31,7 @@ while True:
     elif stoplight <60:
         print ("Red")
         stoplight += 1
-    elif stoplight >= 60:
+    elif stoplight>= 60:
         stoplight = 0
   
 # 3. BONUS: add an additional condition that will change the light to yellow for 5 seconds before the

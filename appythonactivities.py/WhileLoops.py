@@ -6,11 +6,11 @@
 
 
 
-cameraView=0
+CameraView=0
 
-while cameraView<1:
-    print("No one in sight.")
-    peopleinsight=input('Is there anyone is sight? Enter 1 if yes, 2 if no.')
-    if peopleinsight=='y':
+while CameraView<1:
+    print("No one spotted")
+    PeopleSpotted=input("Is there anyone in sight? Enter 1 if yes, 2 if no.")
+    if PeopleSpotted=='y':
         print("ALARM")
-        break
+    break
