@@ -13,8 +13,6 @@ def store():
         else:
             print('Here is your item price.' + str(Product_Price))
 
-def SubtractionCalculator():
-    num1 = int(input('what number would you like to enter?'))
-    num2 = int(input('what number would you like to enter'))
-    print(num1-num2)
-SubtractionCalculator()
+user_word = str(input('What word would you like to reverse?'))
+user_reversed = user_word[::-1]
+print(user_reversed)

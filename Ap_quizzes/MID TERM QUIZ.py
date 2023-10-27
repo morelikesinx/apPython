@@ -79,8 +79,8 @@ print(student)
 # 9. Create a function that will take in a word provided by a user and then output that word back to the user but in reverse.
 
 user_word = str(input('What word would you like to reverse?'))
-user_word.reverse()
-print(user.word)
+user_reversed = user_word[::-1]
+print(user_reversed)
 # 10. Create three (3) seperate functions that will do addition, subtraction, and multiplication respectively.
 # each of these functions should take two (2) arguments. When the user passes these arguments into the function, they will be
 # calculated together and return the output in your terminal.
@@ -89,7 +89,7 @@ def SubtractionCalculator(num1,num2):
     num2 = int(input('what number would you like to enter'))
     product = (num1-num2)
     print(product)
-SubtractionCalculator()
+SubtractionCalculator(num1,num2)
 
 def MultiplicationCalculator(num1,num2):
     num1 = int(input('what number would you like to enter?'))
