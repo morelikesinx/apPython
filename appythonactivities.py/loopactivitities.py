@@ -8,10 +8,10 @@ while i # insert missing code.
     print('insert missing value')
     # insert missing code here
 
-Printer = 1
-while Printer <= 10:
-  print("Document.exe")
-  Documents += 1
+Gift_bag = 1
+while Gift_bag <= 6:
+  print(item_name)
+  user_item += 1
 # 2. Create a simple while loop that will iterate over a the following condition:
 # The loop will ask the user to enter the secret number. The secret number is 3. 
 # If the user enters the secret number correctly, the loop will stop and tell the user

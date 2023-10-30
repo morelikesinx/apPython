@@ -77,10 +77,11 @@ print(student)
 # 8. What type of data can be stored in a python list?
 'Types of data that can be stored in a python list are strings'
 # 9. Create a function that will take in a word provided by a user and then output that word back to the user but in reverse.
-
+def reverseFunc():
 user_word = str(input('What word would you like to reverse?'))
 user_reversed = user_word[::-1]
 print(user_reversed)
+reverseFunc()
 # 10. Create three (3) seperate functions that will do addition, subtraction, and multiplication respectively.
 # each of these functions should take two (2) arguments. When the user passes these arguments into the function, they will be
 # calculated together and return the output in your terminal.
@@ -105,6 +106,7 @@ def AdditionCalculator(num1,num2):
     print(product)
 AdditionCalculator(num1,num2)
 # 11. What is the difference between a function argument and a function parameter.
+
 'A parameter is a variable in a function, and involves as a placeholder'
 'As argument is a value passed during the function'
 # 12. You have been hired by a software company and your first assignment is to develop a password authenticator program.
@@ -117,12 +119,40 @@ AdditionCalculator(num1,num2)
 # e. the user should be able to enter their password and if it meets the requirements, should print a message saying that
 # their password was created successfully, and if it was not, should send back a message with one of the following issues.
 
+def isValidPassword(password):
+    userInput = input('What is your password?')
+    
+    if(len(password)) > 5 and (len(password)) < 3:
+
+        lowerCase=True
+        upperCase=False
+        num=False
+
+        if lowerCase in userInput==True and upperCase in userInput==False and num in userInput==False:
+            print('The password was created successfully')
+
+        elif lowerCase in userInput==False:
+            print('Bad Password: Requires lowercase letters')
+        
+        elif upperCase in userInput==True:
+            print('Bad password: No uppercase letters!')
+
+        elif num in userInput==True:
+            print('Bad Password: No numbers!')
+
+        else:
+            False
+isValidPassword()
 # 13. When you run your code and see typeError in your terminal, what does that typically mean and how would you try to solve
-# the issue?
+# the issue? 
 
+'This error means that an operation was not done correctly in the code because of the assigned object.'
+'One thing I would do to fix this error is changing the to support my operator.'
 # 14. When you run your code and see indentError in your terminal, what does that typically mean and how would you try to solve
-# the issue?
+# the issue? 
 
+'This error means that the tabs or the spaces in the code are not placed correctly.'
+'I can try to solve it by arranging my lines of code in the correct way'
 # 15. Create a while loop that check a user's password. If they enter the password correct, they will get a message saying
 # that the password was entered successfully. If they enter the password incorrectly, it will tell the user to try again.
 # The user should only have three (3) attempts to get the password correct. If they enter the password incorrect on the fourth
@@ -132,10 +162,17 @@ AdditionCalculator(num1,num2)
 giftShopping = ['xbox', 'sneakers', 'necklace',
                 'clothing', 'laptop', 'gift card']
 
+GS = giftShopping.index[5]
+print(GS)
 # 17. Create a for loop that will print ONLY the even numbers within the range of the variable provided below.
 # HINT: You will need to use the range() function.
 upToNumber = 30
 
+range(0,30)
+
+for x in range(30):
+    if x%2==0:
+        print(x)
 # 18. Create a function that uses a conditional statement that checks if a person qualifies for a raise on their salary.
 # The user should be able to enter their name, their salary (how much money they make in an entire year), and how long they have
 # worked at the company. If the user has been working at the company longer than four (4) years, they will get a 15% raise.
@@ -150,3 +187,14 @@ upToNumber = 30
 # The item name should then be added to a list variable called gift_bag. Your gift bag should have a limit of six (6) items.
 # Once your gift bag hits its limit of six (6) items your program should print a message saying
 # that the gift bag is full and print the list of items in the gift bag.
+def giftBagFunc():
+    gift_bag = []
+    user_item = input('Enter an item name')
+    gift_bag.append(user_item)
+
+while gift_bag <= 6:
+  user_item = input('Enter an item name')
+  user_item += 1
+else:
+    print('gift bag is full')
+    print(gift_bag)

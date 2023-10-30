@@ -65,8 +65,6 @@ shopping_cart.append('laptop')
 
 print(shopping_cart)
 
- shopping_cart()
-
 # create a function that will add a new list item to a checkout cart 
 # the user should be able to enter the name of the item and the price
 # your function should add the name of the item to the list of items
