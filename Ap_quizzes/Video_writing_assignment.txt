@@ -1,0 +1,47 @@
+
+
+Early Computing: Crash Course Computer Science #1
+
+One thing I have learned about this video was the use of the Abacus, which was invented in Mesopotamia in 2500BCE.
+It is an ancient hand-made calculator with four columns of beads representing the ones, tens, hundreds, and thousands.
+Another thing I have learned was the astrolabe. This helps sailors calculate their latitude at sea.
+Astrolabes can also be used for calculating height. The third thing I have learned is about the use of 'computer'.
+Early in the years, before devices, it used to refer to peopel who are very intelligent at doing self-calculations.
+
+
+
+Early Programming: Crash Course Computer Science #10
+
+I have learned about the earliest of Thread Textile Fabric Looms. A person named Josep Marie
+created the world's first programmable Textile Loom. He used punch cards as a form of 
+telling the Loom what to do. Punch cards were a very natural, weird, but reliable way to store data.
+Punch cards were used in the Eleventh United States Census, storing a person's name, date of birth, race, and personal details.
+Von Neumann created the Von Neumann Architexture. The worthy machine has a processing unit containing 
+arithmetic measures, data registers, and instruction registers. All of these systems are contained by memory funcitons to store both data and instrucitons.
+
+
+
+Intro to Algorithms: Crash Course Computer Science #13
+
+Dr. Grace hopper is one of the first programmers on the Harvard Mark 1 computer. The computer was completed in 1944 alongside the war. 
+The computer used punch paper tape as data storers. I have also learned more about Dr. Grace, as she created a Programming
+language known as Arithmetic Language version 0. To contribute to the new language, she built the first compiler in 1952.
+It was made to transfer source code written in a programming language into lower-level so the CPU can directly process it. 
+Before people could ever write a program into a computer, they would have to write it themselves on a longer version in paper back in the 1900s.
+This was in the early days of processing the native language of computers in machine code.
+
+
+
+Software Engineering: Crash Course Computer Science #16
+
+One thing I have learned is an Application Programming Interface. API's are the way that programmers interact across 
+various parts of the code, such as using the right objects from a function. 
+I have learned about Object Oriented Progeamming. This lets you specify if the functions are public or not,
+leading to running an individual object through one already within the function. This programming uses the
+ability to hide complexity through selective code. The third topic I have learned about are
+Integrated development environments. They put everything you need into code, and is used as a text editor.
+They can be use to color-code and improve readability in programmers, leading to better results.
+
+
+The World Wide Web
+https://www.youtube.com/watch?v=guvsH5OFizE&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=32

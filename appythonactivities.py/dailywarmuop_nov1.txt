@@ -1,0 +1,6 @@
+1. Version control is a software engineering tactic that can manage or monitor changes in code.
+
+Three things that can be passed down to someone to help the reciever:
+1. Education
+2. Advice on communication
+3. Moral values
