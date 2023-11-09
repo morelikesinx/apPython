@@ -1,13 +1,8 @@
-def giftBagFunc():
-    gift_bag = ['']
-    user_item = input('Enter an item name')
-    gift_bag.append(user_item)
+def fun():
+    sports = input('do you like basketball')
+    if sports == 'Yes': True
+    print('NIce a like being that court')
+    if sports == 'No': False
+    print('Ok well you should play it sometime, its really fun')
 
-while gift_bag <= 6:
-  user_item = input('Enter an item name')
-  user_item += 1
-
-  if gift_bag==6:
-      print('bag is full')
-      print(gift_bag)
-giftBagFunc()
+fun()   
