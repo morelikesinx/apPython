@@ -19,4 +19,4 @@ Three apps that are similar to my program is Keyshot, Unity, Blender. I have use
 useing the program by describing three (3) things about them and how it relates to them 
 using the program. 
 
-This product is designed for software developers, programmers, and game creators alike. These workers can provide new software for other people and computers, develop various functions into their code, and contruct game elements. These people can use it to help them with being creative with coding, generating products and images, and creating prototypes to help them with their ideas. 
+This product is designed for software developers, programmers, and game creators alike. These workers can provide new software for other people and computers, develop various functions into their code, and contruct game elements. These people can use it to help them with being creative with coding, generating products and images, and creating prototypes to help them with their ideas.
