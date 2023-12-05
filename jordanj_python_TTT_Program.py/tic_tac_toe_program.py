@@ -1,3 +1,5 @@
+print("Jordan's Tic Tac Toe")
+
 #game board
 board = ["_","_","_",
          "_","_","_",
