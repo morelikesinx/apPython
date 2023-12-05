@@ -7,7 +7,7 @@ This project is an innovative Tic Tac Toe game coded in Python using the termina
 Jordan's Tic Tac Toe has three (3) main features:
 1. Provides the user with two options of players to choose from: Player 1, or Player 2.
 2. The characters, X or O, can be placed on a 3x3 grid.
-3. This program allows the players to win in three ways: Horizontal, Vertial, or Diagnol.
+3. This program allows the players to win in three ways: Horizontal, Vertical, or Diagnol.
 
 # Contributors
 This Tic Tac Toe Function was created by Jordan Jones from the AP Python class.
